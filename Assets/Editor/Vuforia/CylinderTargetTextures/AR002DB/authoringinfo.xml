@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VuforiaUnityInfo version="7.0">
+    <TargetSet version="5.0" toolVersion="2.8.1">
+        <CylinderTarget name="cclogo" version="3.0" targetId="b1672db286db492aa751a954d229c5de" sideLength="8.000000" topDiameter="3.000000" bottomDiameter="3.000000" sideImage="cclogo.Body_scaled.jpg"/>
+    </TargetSet>
+</VuforiaUnityInfo>

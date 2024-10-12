@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="L507" size="8.000000 10.666667" />
+    <ImageTarget name="M804" size="8.000000 9.552029" />
+    <ImageTarget name="oficinanapa" size="8.000000 5.940000" />
+    <ImageTarget name="L508" size="8.000000 14.222222" />
+    <ImageTarget name="A904" size="8.000000 14.206437" />
+    <ImageTarget name="biblioteca" size="8.000000 6.352357" />
+    <ImageTarget name="4af58d0a-c4e0-4c47-8d95-b817bb14d6c6" size="6.000000 7.405797" />
+    <ImageTarget name="ImagenTarget" size="4.000000 9.397944" />
+  </Tracking>
+</QCARConfig>
