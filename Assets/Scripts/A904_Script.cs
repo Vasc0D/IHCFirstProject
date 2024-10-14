@@ -80,6 +80,13 @@ public class A904Horario : MonoBehaviour
         // Obtener el día actual
         int diaActual = (int)DateTime.Now.DayOfWeek;
 
+        // Si es domingo
+        if (diaActual == 0)
+        {
+            MostrarTexto("No hay clases en este horario");
+            return;
+        }
+
         // Obtiene el array de clases correspondiente al día de la semana
         HorarioClase[] horarioDelDia = ObtenerHorarioPorDia(diaActual);
 

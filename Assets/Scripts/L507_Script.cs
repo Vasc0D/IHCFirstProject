@@ -48,10 +48,17 @@ public class L507Horario : MonoBehaviour
         TimeSpan horaActual = DateTime.Now.TimeOfDay;
 
         // Obtener el día actual
-        int díaActual = (int)DateTime.Now.DayOfWeek;
+        int diaActual = (int)DateTime.Now.DayOfWeek;
+
+        // Si es domingo
+        if (diaActual == 0)
+        {
+            MostrarTexto("No hay clases en este horario");
+            return;
+        }
 
         // Obtiene el array de clases correspondiente al día de la semana
-        HorarioClase[] horarioDelDía = ObtenerHorarioPorDía(díaActual);
+        HorarioClase[] horarioDelDía = ObtenerHorarioPorDía(diaActual);
 
         bool claseEncontrada = false;
 
@@ -73,9 +80,9 @@ public class L507Horario : MonoBehaviour
         }
     }
 
-    HorarioClase[] ObtenerHorarioPorDía(int díaActual)
+    HorarioClase[] ObtenerHorarioPorDía(int diaActual)
     {
-        switch (díaActual)
+        switch (diaActual)
         {
             case 1: return lunesClases;
             case 2: return martesClases;
